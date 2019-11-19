@@ -22,5 +22,5 @@
 [C++](MinNumberInRotatedArray.cpp)
 
 # 参考：
-- [vector基本用法](https://www.runoob.com/w3cnote/cpp-vector-container-analysis.html):作为形参时要用**vector<int>&obj**
+- [vector基本用法](https://www.runoob.com/w3cnote/cpp-vector-container-analysis.html):**作为形参时要用vector< type >&obj**
 
