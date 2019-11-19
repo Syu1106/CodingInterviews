@@ -5,7 +5,7 @@
 {3, 4, 5, 1, 2}为{1, 2, 3, 4, 5}的一个旋转，该数组的最小值为1。
 # 本题考点：
   
-   二分查找的用法。
+   二分查找的用法
   
 # 解题思路:
 
@@ -22,5 +22,5 @@
 [C++](MinNumberInRotatedArray.cpp)
 
 # 参考：
-- [vector基本用法](https://www.runoob.com/w3cnote/cpp-vector-container-analysis.html):作为形参时要用**vector<type>&obj**
+- [vector基本用法](https://www.runoob.com/w3cnote/cpp-vector-container-analysis.html):作为形参时要用**vector<int>&obj**
 
