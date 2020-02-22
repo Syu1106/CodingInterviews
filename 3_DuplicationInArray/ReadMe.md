@@ -44,7 +44,7 @@ public:
                 if(nums[nums[i]]!=nums[i])
                 {
                  //   temp =nums[i];
-                 //   nums[i]=nums[nums[i]];   为什么交换顺序不行？空间也没小多少
+                 //   nums[i]=nums[nums[i]];   如果先改变nums[i]的值，nums[nums[i]]的索引也会改变
                  //   nums[nums[i]]=temp;
                     temp =nums[nums[i]];
                     nums[nums[i]]=nums[i];
