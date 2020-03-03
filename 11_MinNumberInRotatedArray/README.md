@@ -15,10 +15,43 @@
   
   3). 如果i1与i2与im相等，则无法用二分查找，用此时的i1与i2做顺序查找
   
-  4). 如果数组本来是增序，则不进入循环输出im=i1，数组只有1个元素则进入3
+  4). 如果数组本来是增序，则不进入循环输出im=i1，数组只有1个元素则进入3  
   
+  几个例子 12345 34512 3451222 313  412223  21222 22212 133  
+  循环条件 r-l>1(三个数字)  
+  1.当num[d]>num[r]:数组旋转了，且最小值在[d+1,r]  
+  2.当num[d]<num[r]:数组没有旋转，或者旋转了超过一半的数，最小值在[l,d]  
+  3.当num[d]==num[r]:不好判断，边界挪一次可以r=r-1进行下次判断  
+  比较min(num[l],num[r])  
+  ```
+   int minArray(vector<int>& numbers) {
+        int r=0,l=0,d=0;
+        if(numbers.size()==0)
+        return 0;
+        r=numbers.size()-1;
+        l=0;
+        d=(r+l)/2;
+        while(l<r-1)
+        {
+            if(numbers[r]==numbers[d])
+            {
+                r=r-1;
+            }
+            else if(numbers[r]<numbers[d])
+            {
+                l=d+1;
+            }  
+            else if(numbers[r]>numbers[d])
+            {
+                r=d;
+            }
+            d=(r+l)/2;                  
+        }
+        return min(numbers[l],numbers[r]);
 
 
+    }
+  ```
 # 代码
 
 [C++](MinNumberInRotatedArray.cpp)
