@@ -5,3 +5,6 @@
 - [21.调整数组顺序使奇数位于偶数前面](./21ReorderArray/ReadMe.md)
 - [29.顺时针打印矩阵](./29PrintMatrix/ReadMe.md)
 - [39.数组中出现次数超过一半的数字](./39MoreThanHalfNumber/ReadMe.md)
+
+#链表
+- [6.从尾到头打印链表](./6/PrintListInReversedOrder/ReadMe.md)
