@@ -11,7 +11,7 @@
   ListNode* temp=nullptr; 
 ```
 # 指针
-- [指针初始化nullptr](https://zhuanlan.zhihu.com/p/79883965)  
+- [指针初始化 int *p=nullptr](https://zhuanlan.zhihu.com/p/79883965)  
     C++中不能将void *类型的指针隐式转换成其他指针类型,NULL定义为(void*)0  
     nullptr并非整型类别，甚至也不是指针类型，但是能转换成任意指针类型。nullptr的实际类型是std:nullptr_t
 # 栈
