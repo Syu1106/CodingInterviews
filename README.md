@@ -6,5 +6,8 @@
 - [29.顺时针打印矩阵](./29PrintMatrix/ReadMe.md)
 - [39.数组中出现次数超过一半的数字](./39MoreThanHalfNumber/ReadMe.md)
 
-#链表
+# 链表
 - [6.从尾到头打印链表](./6/PrintListInReversedOrder/ReadMe.md)
+
+# BFS和DFS
+- [12.矩阵中的路径](./12PrintListInReversedOrder/ReadMe.md)
