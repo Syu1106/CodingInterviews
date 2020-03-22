@@ -23,3 +23,9 @@ st.top()//栈顶值
 st.pop()//弹出元素
 
 ```
+# String
+- [截取一部分字符](https://blog.csdn.net/ezhou_liukai/article/details/13779091)
+```
+ s.substr(pos, n)    //截取s中从pos开始（包括0）的n个字符的子串，并返回
+ s.substr(pos)    //截取s中从从pos开始（包括0）到末尾的所有字符的子串，并返回
+```
