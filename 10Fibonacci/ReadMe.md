@@ -86,4 +86,4 @@ public:
 初始化 a=vector<int> (100,0);a=vector<vector<int>>(3,vector<int>(4,100));
 函数内声明并初始化 vector<int>a(100,0);//将a的100个元素初始化为0 
 ```
-2. [快速幂与矩阵快速幂](https://blog.csdn.net/FlushHip/article/details/80068888)
+2.[快速幂与矩阵快速幂](https://blog.csdn.net/FlushHip/article/details/80068888)
