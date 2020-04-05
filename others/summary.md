@@ -3,7 +3,18 @@
 - 成员变量声明并初始化 vector<int>a=vector<int>(100,0);vector<vector<int>> a=vector<vector<int>>(3,vector<int>(4,100));
 - 初始化 a=vector<int> (100,0);a=vector<vector<int>>(3,vector<int>(4,100));
 - 函数内声明并初始化 vector<int>a(100,0);//将a的100个元素初始化为0 
-- 反转 reverse(res.begin(),res.end());
+- 反转 reverse(res.begin(),res.end());  
+- [find用法](https://blog.csdn.net/huangyimin/article/details/6133650)
+ ```
+ 
+    vector<int>::iterator it = find(vec.begin(), vec.end(), 6);
+ 
+    if (it != vec.end())
+        cout<<*it<<endl;
+    else
+        cout<<"can not find"<<endl;
+
+ ```
 # 数组
 - 声明 int a[100];
 - 初始化 memset(a,0,sizeof(int)*100);
@@ -35,6 +46,7 @@ st.pop()//弹出元素
 ```
  s.substr(pos, n)    //截取s中从pos开始（包括0）的n个字符的子串，并返回
  s.substr(pos)    //截取s中从从pos开始（包括0）到末尾的所有字符的子串，并返回
+# HashMap
 ```
 # 方法
 - [快速幂与矩阵快速幂](https://blog.csdn.net/FlushHip/article/details/80068888)
