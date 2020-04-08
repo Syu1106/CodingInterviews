@@ -57,7 +57,17 @@ st.pop()//弹出元素
 ```
  s.substr(pos, n)    //截取s中从pos开始（包括0）的n个字符的子串，并返回
  s.substr(pos)    //截取s中从从pos开始（包括0）到末尾的所有字符的子串，并返回
+ ```
 # HashMap
+- 基本使用
+```
+    unordered_map<char,int> m;
+    string s;
+    void Insert(char ch)
+    {
+        s += ch;
+        m[ch]++;
+    }
 ```
 # 方法
 - [快速幂与矩阵快速幂](https://blog.csdn.net/FlushHip/article/details/80068888)
