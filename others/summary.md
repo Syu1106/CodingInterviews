@@ -41,6 +41,17 @@ st.top()//栈顶值
 st.pop()//弹出元素
 
 ```
+# 树
+- 树的构造
+```
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+```
 # String
 - [截取一部分字符](https://blog.csdn.net/ezhou_liukai/article/details/13779091)
 ```
