@@ -1,3 +1,24 @@
+# split
+```
+ vector<string> split(string str, char ch)
+    {
+        vector<string> subs;
+        for (int i = -1, k = 0; k < str.length(); )
+        {
+            while (str[k] == ch) k++;
+            i++;
+            subs.push_back("");
+            while (str[k] != ch && k < str.length())
+            {
+                subs[i] += str[k];
+                k++;
+            }
+            if (subs[i] == "") subs.pop_back();
+        }
+        return subs;
+    }
+
+```
 # vector 
 - 成员变量不能直接调用vector的构造函数声明并初始化 声明只能vector<int>a;
 - 成员变量声明并初始化 vector<int>a=vector<int>(100,0);vector<vector<int>> a=vector<vector<int>>(3,vector<int>(4,100));
